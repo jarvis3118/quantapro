@@ -40,11 +40,11 @@ on conflict do nothing;
 -- ---------------------------------------------------------
 do $$
 declare
-  v_staff_id   uuid := '00000000-0000-0000-0000-000000000001'; -- replace
-  v_rahul_id   uuid := '00000000-0000-0000-0000-000000000002'; -- replace
-  v_priya_id   uuid := '00000000-0000-0000-0000-000000000003'; -- replace
-  v_aman_id    uuid := '00000000-0000-0000-0000-000000000004'; -- replace
-  v_neha_id    uuid := '00000000-0000-0000-0000-000000000005'; -- replace
+  v_staff_id   uuid := 'bf7242dc-e994-4a54-9a36-0cff263f57ca'; -- staff1@trimora.demo
+  v_rahul_id   uuid := '31688ba3-647b-48fa-ac52-b62cff066fe3'; -- rahul@trimora.demo
+  v_priya_id   uuid := '75b79299-b10e-43b9-9991-a2e721cabdc3'; -- priya@trimora.demo
+  v_aman_id    uuid := '49afd2a9-874f-4ad1-bead-4f3314de036b'; -- aman@trimora.demo
+  v_neha_id    uuid := '78cbb647-de4e-438b-b01a-ecee25a0dfb9'; -- neha@trimora.demo
 
   v_haircut_id   uuid;
   v_beard_id     uuid;
