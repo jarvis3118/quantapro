@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import BookingForm from './components/BookingForm.jsx';
-import QueueStatus from './components/QueueStatus.jsx';
-import StaffLogin from './components/StaffLogin.jsx';
-import StaffDashboard from './components/StaffDashboard.jsx';
+import BookingForm from './lib/components/BookingForm.jsx';
+import QueueStatus from './lib/components/QueueStatus.jsx';
+import StaffLogin from './lib/components/StaffLogin.jsx';
+import StaffDashboard from './lib/components/StaffDashboard.jsx';
 
 export default function App() {
   const [appointmentId, setAppointmentId] = useState(null);
